@@ -1,0 +1,10 @@
+{
+  "Name": "StardewValleyPrairieKing",
+  "Author": "gulewei",
+  "Version": "1.0.0",
+  "Description": "One or two sentences about the mod",
+  "UniqueID": "gulewei.StardewValleyPrairieKing",
+  "EntryDll": "StardewValleyPrairieKing.dll",
+  "MinimumApiVersion": "4.0.0",
+  "UpdateKeys": []
+}
