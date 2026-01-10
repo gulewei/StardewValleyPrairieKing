@@ -1,4 +1,4 @@
-**Prairie King Start Power-ups: is a lightweight, clean mod that gives you power-ups the moment you step into the boots of the Prairie King.**
+**Prairie King: Outlaw Starter Kit** is a clean mod that gives you power-ups the moment you step into the boots of the Prairie King.
 
 
 # ✨ The Starter Kit
