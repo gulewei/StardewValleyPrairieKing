@@ -1,6 +1,5 @@
 # **Prairie King: Outlaw Starter Kit** 
-A clean mod that gives you power-ups the moment you step into the boots of the Prairie King.
-
+A clean mod that that makes you get through Prairie King much easier.
 
 ## ✨ The Starter Kit
 
