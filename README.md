@@ -1,6 +1,9 @@
 # **Prairie King: Starter Kit** 
 A clean mod that makes you get through Prairie King much easier.
 
+## ⬇️ Download
+- https://www.nexusmods.com/stardewvalley/mods/41110
+
 ## ✨ The Starter Kit
 
 ⚡ Speed Boost (Coffee): Start with increased movement speed. Outrun the fastest monsters and weave through bullet patterns with ease.
