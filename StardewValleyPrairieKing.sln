@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StardewValleyPrairieKing", "StardewValleyPrairieKing.csproj", "{841759DE-89D0-4FCC-B5B8-722594F6B390}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StardewValleyPrairieKingStarterKit", "StardewValleyPrairieKingStarterKit.csproj", "{841759DE-89D0-4FCC-B5B8-722594F6B390}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

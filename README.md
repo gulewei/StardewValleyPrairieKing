@@ -1,5 +1,5 @@
-# **Prairie King: Outlaw Starter Kit** 
-A clean mod that that makes you get through Prairie King much easier.
+# **Prairie King: Starter Kit** 
+A clean mod that makes you get through Prairie King much easier.
 
 ## ✨ The Starter Kit
 

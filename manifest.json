@@ -1,10 +1,10 @@
 {
-  "Name": "Prairie King: Outlaw Starter Kit",
+  "Name": "StardewValleyPrairieKingStarterKit",
   "Author": "gulewei",
   "Version": "1.0.0",
-  "Description": "a clean mod that gives you power-ups the moment you step into the boots of the Prairie King",
-  "UniqueID": "gulewei.PrairieKingOutlawStarterKit",
-  "EntryDll": "PrairieKingOutlawStarterKit.dll",
+  "Description": "A clean mod that that makes you get through Prairie King much easier.",
+  "UniqueID": "gulewei.StardewValleyPrairieKingStarterKit",
+  "EntryDll": "StardewValleyPrairieKingStarterKit.dll",
   "MinimumApiVersion": "4.0.0",
   "UpdateKeys": []
 }
