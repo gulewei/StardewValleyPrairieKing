@@ -1,7 +1,8 @@
-**Prairie King: Outlaw Starter Kit** is a clean mod that gives you power-ups the moment you step into the boots of the Prairie King.
+# **Prairie King: Outlaw Starter Kit** 
+A clean mod that gives you power-ups the moment you step into the boots of the Prairie King.
 
 
-# ✨ The Starter Kit
+## ✨ The Starter Kit
 
 ⚡ Speed Boost (Coffee): Start with increased movement speed. Outrun the fastest monsters and weave through bullet patterns with ease.
 
@@ -9,7 +10,7 @@
 
 ⏳ Persistent Power: Buff timers are extended (1000x duration), meaning you don't have to rush. Your starter buffs—and any you pick up—will last for the duration of the stage.
 
-# 💡 Important Tips & Mechanics
+## 💡 Important Tips & Mechanics
 To keep the mod lightweight and balanced, please keep these two rules in mind:
 
 🕹️ Saloon Exclusive: This mod is specifically designed for the Stardrop Saloon arcade machine. Head to the saloon to activate your power-ups!
