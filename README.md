@@ -1,0 +1,1 @@
+A mod for Stardew Valley that makes you get through Journey of the Prairie King much easier.
