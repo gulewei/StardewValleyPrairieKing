@@ -1,4 +1,5 @@
-﻿using StardewModdingAPI;
+﻿using Microsoft.Xna.Framework;
+using StardewModdingAPI;
 using StardewModdingAPI.Events;
 using StardewValley;
 using StardewValley.Minigames;
@@ -45,15 +46,31 @@ namespace StardewValleyPrairieKing
             if (!Context.IsWorldReady)
                 return;
 
-
             var minigame = Game1.currentMinigame;
             if (minigame is not AbigailGame abigail || AbigailGame.onStartMenu) return;
-            // 开始草原大王
-            abigail.powerupDuration *= 1000;
-            abigail.usePowerup(AbigailGame.POWERUP_SPEED);
-            abigail.usePowerup(AbigailGame.POWERUP_SPREAD);
+
+            InitAbigailGamePowerups(abigail);
             Helper.Events.GameLoop.OneSecondUpdateTicked -= OnSaloonOneSecondUpdateTicked;
-            Monitor.Log($">>>> 开始享受吧.", LogLevel.Debug);
+        }
+
+        private static void InitAbigailGamePowerups(AbigailGame abigail)
+        {
+            // 开始草原大王
+            // abigail.powerupDuration *= 1000;
+            // abigail.usePowerup(AbigailGame.POWERUP_SPEED);
+            // abigail.usePowerup(AbigailGame.POWERUP_SPREAD);
+            var duration = abigail.powerupDuration * 1000;
+            AbigailGame.powerups.Add(new AbigailGame.CowboyPowerup(AbigailGame.POWERUP_SPEED, GetRandomPoint(), duration));
+            AbigailGame.powerups.Add(new AbigailGame.CowboyPowerup(AbigailGame.POWERUP_SPREAD, GetRandomPoint(), duration));
+            // Monitor.Log($">>>> 开始享受吧.", LogLevel.Debug);
+        }
+
+        private static Point GetRandomPoint()
+        {
+            var rnd = new Random();
+            var x = rnd.Next(1, 15) * AbigailGame.TileSize;
+            var y = rnd.Next(1, 15) * AbigailGame.TileSize;
+            return new Point(x, y);
         }
     }
 }
