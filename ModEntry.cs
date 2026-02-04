@@ -16,7 +16,11 @@ namespace StardewValleyPrairieKing
         /// <param name="helper">Provides simplified APIs for writing mods.</param>
         public override void Entry(IModHelper helper)
         {
-            helper.Events.Player.Warped += OnPlayerWarped;
+            #if DEBUG
+                Helper.Events.GameLoop.OneSecondUpdateTicked += OnSaloonOneSecondUpdateTicked;
+            #else
+                helper.Events.Player.Warped += OnPlayerWarped;
+            #endif
         }
 
         /*********
@@ -56,12 +60,11 @@ namespace StardewValleyPrairieKing
         private static void InitAbigailGamePowerups(AbigailGame abigail)
         {
             // 开始草原大王
-            // abigail.powerupDuration *= 1000;
+            abigail.powerupDuration *= 1000;
             // abigail.usePowerup(AbigailGame.POWERUP_SPEED);
             // abigail.usePowerup(AbigailGame.POWERUP_SPREAD);
-            var duration = abigail.powerupDuration * 1000;
-            AbigailGame.powerups.Add(new AbigailGame.CowboyPowerup(AbigailGame.POWERUP_SPEED, GetRandomPoint(), duration));
-            AbigailGame.powerups.Add(new AbigailGame.CowboyPowerup(AbigailGame.POWERUP_SPREAD, GetRandomPoint(), duration));
+            AbigailGame.powerups.Add(new AbigailGame.CowboyPowerup(AbigailGame.POWERUP_SPEED, GetRandomPoint(), 9999999));
+            AbigailGame.powerups.Add(new AbigailGame.CowboyPowerup(AbigailGame.POWERUP_SPREAD, GetRandomPoint(), 9999999));
             // Monitor.Log($">>>> 开始享受吧.", LogLevel.Debug);
         }
 
